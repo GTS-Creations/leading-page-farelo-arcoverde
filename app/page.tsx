@@ -33,49 +33,49 @@ export default function Home() {
             </span>
           </div>
           <nav className="hidden md:flex gap-6">
-            <Link
+            <a
               href="#inicio"
               className="text-sm font-medium hover:text-green-700 transition-colors"
             >
               Início
-            </Link>
-            <Link
+            </a>
+            <a
               href="#sobre"
               className="text-sm font-medium hover:text-green-700 transition-colors"
             >
               Sobre
-            </Link>
-            <Link
+            </a>
+            <a
               href="#produtos"
               className="text-sm font-medium hover:text-green-700 transition-colors"
             >
               Produtos
-            </Link>
-            <Link
+            </a>
+            <a
               href="#beneficios"
               className="text-sm font-medium hover:text-green-700 transition-colors"
             >
               Benefícios
-            </Link>
-            <Link
+            </a>
+            <a
               href="#localizacao"
               className="text-sm font-medium hover:text-green-700 transition-colors"
             >
               Localização
-            </Link>
-            <Link
+            </a>
+            <a
               href="#contato"
               className="text-sm font-medium hover:text-green-700 transition-colors"
             >
               Contato
-            </Link>
+            </a>
           </nav>
-          <Link
+          <a
             href="#contato"
             className="hidden md:inline-flex h-9 items-center justify-center rounded-md bg-green-700 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-green-800"
           >
             Fale Conosco
-          </Link>
+          </a>
           <button
             className="md:hidden"
             onClick={toggleMobileMenu}
@@ -93,55 +93,55 @@ export default function Home() {
         {mobileMenuOpen && (
           <div className="md:hidden bg-white border-t">
             <div className="container px-4 py-3 flex flex-col space-y-3">
-              <Link
+              <a
                 href="#inicio"
                 className="text-sm font-medium hover:text-green-700 transition-colors py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Início
-              </Link>
-              <Link
+              </a>
+              <a
                 href="#sobre"
                 className="text-sm font-medium hover:text-green-700 transition-colors py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Sobre
-              </Link>
-              <Link
+              </a>
+              <a
                 href="#produtos"
                 className="text-sm font-medium hover:text-green-700 transition-colors py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Produtos
-              </Link>
-              <Link
+              </a>
+              <a
                 href="#beneficios"
                 className="text-sm font-medium hover:text-green-700 transition-colors py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Benefícios
-              </Link>
-              <Link
+              </a>
+              <a
                 href="#localizacao"
                 className="text-sm font-medium hover:text-green-700 transition-colors py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Localização
-              </Link>
-              <Link
+              </a>
+              <a
                 href="#contato"
                 className="text-sm font-medium hover:text-green-700 transition-colors py-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Contato
-              </Link>
-              <Link
+              </a>
+              <a
                 href="#contato"
                 className="inline-flex h-9 items-center justify-center rounded-md bg-green-700 px-4 py-2 text-sm font-medium text-white shadow transition-colors hover:bg-green-800 mt-2"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Fale Conosco
-              </Link>
+              </a>
             </div>
           </div>
         )}
@@ -162,18 +162,18 @@ export default function Home() {
                   garantir a melhor nutrição para o seu rebanho.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
-                  <Link
+                  <a
                     href="#produtos"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-green-700 px-8 text-sm font-medium text-white shadow transition-colors hover:bg-green-800"
                   >
                     Nossos Produtos
-                  </Link>
-                  <Link
+                  </a>
+                  <a
                     href="#contato"
                     className="inline-flex h-10 items-center justify-center rounded-md border border-green-700 px-8 text-sm font-medium text-green-700 shadow-sm transition-colors hover:bg-green-50"
                   >
                     Entre em Contato
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className="mx-auto lg:ml-auto">
@@ -290,12 +290,12 @@ export default function Home() {
                   Rico em proteínas e nutrientes essenciais para o
                   desenvolvimento saudável do seu rebanho.
                 </p>
-                <Link
+                <a
                   href="#contato"
                   className="inline-flex items-center text-sm font-medium text-green-700 hover:underline"
                 >
                   Saiba mais <ArrowRight className="ml-1 h-4 w-4" />
-                </Link>
+                </a>
               </div>
               <div className="flex flex-col items-center space-y-4 rounded-lg border p-6 shadow-sm bg-white">
                 <div className="h-16 w-16 rounded-full bg-green-100 flex items-center justify-center">
@@ -308,12 +308,12 @@ export default function Home() {
                   Excelente fonte de energia e proteína para complementar a
                   alimentação do seu gado.
                 </p>
-                <Link
+                <a
                   href="#contato"
                   className="inline-flex items-center text-sm font-medium text-green-700 hover:underline"
                 >
                   Saiba mais <ArrowRight className="ml-1 h-4 w-4" />
-                </Link>
+                </a>
               </div>
               <div className="flex flex-col items-center space-y-4 rounded-lg border p-6 shadow-sm bg-white">
                 <div className="h-16 w-16 rounded-full bg-green-100 flex items-center justify-center">
@@ -326,12 +326,12 @@ export default function Home() {
                   Formulações específicas para diferentes fases de
                   desenvolvimento e tipos de animais.
                 </p>
-                <Link
+                <a
                   href="#contato"
                   className="inline-flex items-center text-sm font-medium text-green-700 hover:underline"
                 >
                   Saiba mais <ArrowRight className="ml-1 h-4 w-4" />
-                </Link>
+                </a>
               </div>
             </div>
             <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -456,12 +456,12 @@ export default function Home() {
                   a diferença.
                 </p>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
-                  <Link
+                  <a
                     href="#contato"
                     className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-green-700 shadow transition-colors hover:bg-gray-100"
                   >
                     Fale com um Consultor
-                  </Link>
+                  </a>
                 </div>
               </div>
               <div className="flex flex-col justify-center space-y-4">
