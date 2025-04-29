@@ -58,16 +58,16 @@ export default function Home() {
               Benefícios
             </a>
             <a
-              href="#localizacao"
-              className="text-sm font-medium hover:text-green-700 transition-colors"
-            >
-              Localização
-            </a>
-            <a
               href="#contato"
               className="text-sm font-medium hover:text-green-700 transition-colors"
             >
               Contato
+            </a>
+            <a
+              href="#localizacao"
+              className="text-sm font-medium hover:text-green-700 transition-colors"
+            >
+              Localização
             </a>
           </nav>
           <a
@@ -648,16 +648,15 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-2">
+            <div className="mx-auto grid max-w-5xl gap-6 py-12 lg:grid-cols-2 items-center">
               <div className="space-y-4">
-                <div className="rounded-lg overflow-hidden">
-                  <Image
-                    src="/fachada.png?height=400&width=600&text=Mapa+de+Localização"
-                    alt="Mapa de localização"
-                    width={500}
-                    height={400}
-                    className="w-full h-auto object-cover"
-                  />
+                <div className="relative w-full pb-[56.25%] overflow-hidden rounded-lg shadow-sm">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!4v1745948816786!6m8!1m7!1si0dXeC0Dp9P-eyn1USKlmQ!2m2!1d-8.418794886074753!2d-37.03652697109547!3f175.3483020023257!4f1.9981272350694894!5f0.7820865974627469"
+                    className="absolute top-0 left-0 w-full h-full border-0"
+                    allowFullScreen
+                    loading="lazy"
+                  ></iframe>
                 </div>
               </div>
               <div className="space-y-4">
