@@ -692,9 +692,13 @@ export default function Home() {
             <span className="text-lg font-bold">Farelo Arcoverde</span>
           </div>
           <p className="text-sm text-gray-200">
-            © {new Date().getFullYear()} Farelo Arcoverde. Todos os direitos
-            reservados.
+            © {new Date().getFullYear()}&nbsp;
+            <a href="https://www.instagram.com/gtscreationsofc" target="_blank">
+              GTS Creations
+            </a>
+            . Todos os direitos reservados.
           </p>
+
           <div className="flex gap-4">
             <Link href="#" className="text-gray-200 hover:text-white">
               <svg
